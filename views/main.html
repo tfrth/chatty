@@ -5,6 +5,6 @@
 
 <h4>Latest Chats:</h4>
 <div ng-controller="MessageCtrl"class="jumbotron">
-	<p ng-repeat="message in messages">{{message}}</p>
+	<p ng-repeat="message in messages">{{message}}{{messages.createdAt}}</p>
 </div>
 
